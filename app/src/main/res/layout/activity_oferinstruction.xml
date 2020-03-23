@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".oferinstruction">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/inc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="The Offer Include"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/inclu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/notinc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="The Offer Not Include"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/notinclu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:text="OfferNote" />
+
+    <ListView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:text="Offer Price" />
+
+    <ListView
+        android:id="@+id/Oferprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/hagz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:text="ForReserve" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
