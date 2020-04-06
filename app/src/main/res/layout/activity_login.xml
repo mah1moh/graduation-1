@@ -76,6 +76,8 @@
         android:layout_centerHorizontal="true"
 
         />
+<TextView
 
+android:text="احا ياعصام 😂😂😂"
 
 </RelativeLayout>
